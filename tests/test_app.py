@@ -3,7 +3,7 @@ import pytest
 from flask import Flask
 from app.models import Data
 from app import db
-from app.routes import data_routes  # Reemplaza 'your_app_file' con el nombre real de tu archivo
+from app.routes import data_routes 
 
 @pytest.fixture
 def app():
